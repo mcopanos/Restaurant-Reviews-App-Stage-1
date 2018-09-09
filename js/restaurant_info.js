@@ -6,7 +6,6 @@ var newMap;
  */
 document.addEventListener('DOMContentLoaded', (event) => {
   initMap();
-  console.log('it loaded')
 });
 
 /**
