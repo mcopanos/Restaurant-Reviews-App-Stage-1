@@ -19,7 +19,7 @@ const urlsToCache = [
   './img/9.jpg',
   './img/10.jpg',
 ]
-/* Instal Cache*/
+/* Install Cache */
  self.addEventListener('install', event => {
    event.waitUntil(
      caches.open(staticWorker).then(cache => {
@@ -31,6 +31,7 @@ const urlsToCache = [
   );
  })
 
+ /* Fetch Request */
  self.addEventListener('fetch', event => {
   event.respondWith(
     caches.match(event.request).then(response => {
