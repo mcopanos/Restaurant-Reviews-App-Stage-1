@@ -1,14 +1,11 @@
-# Mobile Web Specialist Certification Course
----
-#### _Three Stage Course Material Project - Restaurant Reviews_
+# Restaurant Reviews App (Stage 1)
 
-## Project Overview: Stage 1
+### Instructions
 
-For the **Restaurant Reviews** projects, you will incrementally convert a static webpage to a mobile-ready web application. In **Stage One**, you will take a static design that lacks accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use. You will also add a service worker to begin the process of creating a seamless offline experience for your users.
-
-### Specification
-
-You have been provided the code for a restaurant reviews website. The code has a lot of issues. It’s barely usable on a desktop browser, much less a mobile device. It also doesn’t include any standard accessibility features, and it doesn’t work offline at all. Your job is to update the code to resolve these issues while still maintaining the included functionality. 
+Step 1: Clone to your machine locally.
+Step 2: Spin up server with instructions below.
+Step 3: Get a map box key (instructions are also below).
+Step 4: Hack away and have fun.
 
 ### What do I do from here?
 
@@ -24,9 +21,9 @@ In a terminal, check the version of Python you have: `python -V`. If you have Py
 
 This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/). You need to replace `<your MAPBOX API KEY HERE>` with a token from [Mapbox](https://www.mapbox.com/). Mapbox is free to use, and does not require any payment information. 
 
-### Note about ES6
+In folders main.js and restaurant_info.js replace `<your MAPBOX API KEY HERE>` with the api you acquired and then the map should display. 
 
-Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern web browsers and future proofing JavaScript code. As much as possible, try to maintain use of ES6 in any additional JavaScript you write. 
+
 
 
 
