@@ -3,8 +3,11 @@
 ### Instructions
 
 Step 1: Clone to your machine locally.
+
 Step 2: Spin up server with instructions below.
+
 Step 3: Get a map box key (instructions are also below).
+
 Step 4: Hack away and have fun.
 
 ### What do I do from here?
